@@ -5,8 +5,8 @@ import time
 from aiogram import Bot, Dispatcher, executor, types
 import openai
 
-BOT_TOKEN = "5886577739:AAEZxCXtCQ3j2IiwpRfJ_INwNLHyO4UgUiU"
-OPENAI_TOKEN = "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"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
+OPENAI_TOKEN = "YOUR_OPENAI_TOKEN"
 
 openai.api_key = OPENAI_TOKEN
 bot = Bot(token=BOT_TOKEN)
